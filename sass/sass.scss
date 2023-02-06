@@ -1,0 +1,88 @@
+$border-blue: #2393d1;
+$text-blue: #1a2352;
+$para-blue:#123b62;
+$border-magenta: #cf3b7b;
+@mixin column-styles {
+    display: inline-block;
+    width: 33%;
+}
+
+@mixin box {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    border: 2px solid $border-blue;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+@mixin h2 {
+    line-height: 40px;
+    background-color: white;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: bold;
+    color: $border-blue;
+    font-size: 21px;
+    text-align: center;
+    border: 2px solid $border-magenta;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -20px;
+    top: 40px;
+}
+
+@mixin h3 {
+    font-family: Helvetica, Sans-Serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $text-blue;
+    font-size: 15px;
+}
+
+@mixin p {
+    margin: 10px 0 0 10px;
+    font-family: Helvetica, Sans-Serif;
+    color: $para-blue;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#infographic-wrapper-060223 {
+    border: 1px solid blue;
+    max-width: 1280px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    .col {
+        @include column-styles;
+        .box {
+            @include box;
+            h2 {
+                @include h2;
+            }
+            h3 {
+                @include h3;
+            }
+            .col-25 {
+                width: 25%;
+                display: inline;
+                svg {
+                    width: 80px;
+                    height: 80px;
+                    display: inline;
+                }
+            }
+            .col-75 {
+                width: 75%;
+                display: inline;
+                vertical-align: top;
+                p {
+                    @include p;
+                }
+            }
+        }
+    }
+}
