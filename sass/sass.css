@@ -9,19 +9,19 @@
 #infographic-wrapper-060223 {
   max-width: 1280px;
   width: 100%;
-  display: block;
   margin: 0 auto;
+  display: none;
+}
+@media (min-width: 848px) {
+  #infographic-wrapper-060223 {
+    display: block;
+  }
 }
 #infographic-wrapper-060223 .col {
-  display: none;
+  display: inline-block;
   width: 33%;
   position: relative;
   vertical-align: top;
-}
-@media (min-width: 848px) {
-  #infographic-wrapper-060223 .col {
-    display: inline-block;
-  }
 }
 #infographic-wrapper-060223 .col:not(:first-child):not(:last-child) {
   min-height: 400px;
@@ -91,7 +91,11 @@
   font-weight: bold;
   color: #1a2352;
   font-size: 15px;
-  min-height: 34px;
+}
+@media (min-width: 1100px) {
+  #infographic-wrapper-060223 .col .box h3 {
+    max-width: 74%;
+  }
 }
 #infographic-wrapper-060223 .col .box .col-25 {
   width: 25%;
