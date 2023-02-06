@@ -58,6 +58,46 @@ $border-magenta: #cf3b7b;
     display: inline-block;
 }
 
+@mixin button-style {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 21px;
+    font-size: 21px;
+    background-color: $border-blue;
+    border: 1px solid $text-blue;
+    color: white;
+    &:hover {
+        background-color: white;
+        color: $border-blue;
+    }
+}
+
+@mixin col-25 {
+    width: 25%;
+    display: inline;
+    vertical-align: top;
+    margin-bottom: 10px;
+    svg {
+        width: 80px;
+        height: 80px;
+        display: inline;
+    }
+}
+
+@mixin col-75 {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    p {
+        @include p;
+    }
+}
+
 //hide toggle
 .hidden {
     display: none;
@@ -80,32 +120,12 @@ $border-magenta: #cf3b7b;
                 @include h3;
             }
             .col-25 {
-                width: 25%;
-                display: inline;
-                svg {
-                    width: 80px;
-                    height: 80px;
-                    display: inline;
-                }
+                @include col-25;
             }
             .col-75 {
-                width: 75%;
-                display: inline-block;
-                vertical-align: top;
-                p {
-                    @include p;
-                }
+                @include col-75;
                 button {
-                    margin: 10px;
-                    border-radius: 50%;
-                    display: block;
-                    width: 28px;
-                    height: 28px;
-                    line-height: 24px;
-                    font-size: 21px;
-                    background-color: $border-blue;
-                    border: 1px solid $text-blue;
-                    color: white;
+                    @include button-style;
                 }
                 .toggledText {
                     margin: 0 0 20px 10px;

@@ -50,6 +50,8 @@
 #infographic-wrapper-060223 .col .box .col-25 {
   width: 25%;
   display: inline;
+  vertical-align: top;
+  margin-bottom: 10px;
 }
 #infographic-wrapper-060223 .col .box .col-25 svg {
   width: 80px;
@@ -60,6 +62,7 @@
   width: 75%;
   display: inline-block;
   vertical-align: top;
+  margin-bottom: 10px;
 }
 #infographic-wrapper-060223 .col .box .col-75 p {
   margin: 10px 0 0 10px;
@@ -69,16 +72,21 @@
   display: inline-block;
 }
 #infographic-wrapper-060223 .col .box .col-75 button {
+  cursor: pointer;
   margin: 10px;
   border-radius: 50%;
   display: block;
-  width: 28px;
-  height: 28px;
-  line-height: 24px;
+  width: 25px;
+  height: 25px;
+  line-height: 21px;
   font-size: 21px;
   background-color: #2393d1;
   border: 1px solid #1a2352;
   color: white;
+}
+#infographic-wrapper-060223 .col .box .col-75 button:hover {
+  background-color: white;
+  color: #2393d1;
 }
 #infographic-wrapper-060223 .col .box .col-75 .toggledText {
   margin: 0 0 20px 10px;
