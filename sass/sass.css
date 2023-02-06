@@ -1,21 +1,20 @@
-.hidden {
-  display: none;
-}
-
-.clear {
-  clear: both;
-}
-
 #infographic-wrapper-060223 {
   max-width: 1280px;
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: none;
 }
 @media (min-width: 848px) {
   #infographic-wrapper-060223 {
     display: block;
+    margin: 40px auto;
   }
+}
+#infographic-wrapper-060223 .hidden {
+  display: none;
+}
+#infographic-wrapper-060223 .clear {
+  clear: both;
 }
 #infographic-wrapper-060223 .col {
   display: inline-block;
@@ -51,6 +50,20 @@
   left: 0;
   right: 0;
   margin: auto;
+}
+#infographic-wrapper-060223 .col:not(:first-child):not(:last-child) h3 {
+  font-family: Helvetica, Sans-Serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1a2352;
+  font-size: 15px;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #infographic-wrapper-060223 .col:last-child .box {
   padding-left: 40px;
