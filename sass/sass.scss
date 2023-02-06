@@ -75,6 +75,9 @@ $border-magenta: #cf3b7b;
     border-radius: 12px;
     padding: 10px 20px 20px 20px;
     margin-bottom: 40px;
+    @media (min-width: 1100px) {
+        padding: 4px 20px 28px 34px;
+    }
 }
 
 @mixin h2 {
@@ -108,16 +111,16 @@ $border-magenta: #cf3b7b;
 }
 
 @mixin p {
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 21px;
     font-family: Helvetica, Sans-Serif;
     color: $para-blue;
-    font-size: 13px;
+    font-size: 15px;
     display: inline-block;
 }
 
 @mixin button-style {
     cursor: pointer;
-    margin: 10px;
+    margin: 10px 10px 10px 20px;
     border-radius: 50%;
     display: block;
     width: 25px;
@@ -183,7 +186,7 @@ $border-magenta: #cf3b7b;
             h3 {
                 @include h3;
                 @media (min-width: 1100px) {
-                    max-width: 74%;
+                    max-width: 82%;
                 }
             }
             .col-25 {

@@ -77,6 +77,11 @@
   padding: 10px 20px 20px 20px;
   margin-bottom: 40px;
 }
+@media (min-width: 1100px) {
+  #infographic-wrapper-060223 .col .box {
+    padding: 4px 20px 28px 34px;
+  }
+}
 #infographic-wrapper-060223 .col .box h2 {
   z-index: 1;
   line-height: 40px;
@@ -107,7 +112,7 @@
 }
 @media (min-width: 1100px) {
   #infographic-wrapper-060223 .col .box h3 {
-    max-width: 74%;
+    max-width: 82%;
   }
 }
 #infographic-wrapper-060223 .col .box .col-25 {
@@ -128,15 +133,15 @@
   margin-bottom: 10px;
 }
 #infographic-wrapper-060223 .col .box .col-75 p {
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 21px;
   font-family: Helvetica, Sans-Serif;
   color: #123b62;
-  font-size: 13px;
+  font-size: 15px;
   display: inline-block;
 }
 #infographic-wrapper-060223 .col .box .col-75 button {
   cursor: pointer;
-  margin: 10px;
+  margin: 10px 10px 10px 20px;
   border-radius: 50%;
   display: block;
   width: 25px;
