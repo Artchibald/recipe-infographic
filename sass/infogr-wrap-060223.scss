@@ -5,23 +5,76 @@
 #infogr-wrap-060223-mobile {
     width: 100%;
     margin: 0px auto;
-    display: flex;
+    display: block;
     @media (min-width: 848px) {
         display: none;
     }
-    .box {
+    .d-flex {
+        display: flex;
+        .box {
+            position: relative;
+            display: inline-block;
+            width: 40%;
+            height: 40%;
+            border: 2px solid $border-blue;
+            border-radius: 12px;
+            margin: 0 5%;
+            position: relative;
+            min-height: 100px;
+            @media (min-width: 414px) {
+                min-height: 120px;
+            }
+            svg {
+                max-height: 65%;
+                max-width: 65%;
+                width: auto;
+                height: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            h2 {
+                z-index: 1;
+                line-height: 40px;
+                background-color: white;
+                font-family: Helvetica, Sans-Serif;
+                font-weight: bold;
+                color: $border-blue;
+                font-size: 21px;
+                text-align: center;
+                border: 2px solid $border-magenta;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                left: -20px;
+                top: 10px;
+            }
+        }
+    }
+    .circle-wrap {
+        height: 460px;
         position: relative;
-        display: inline-block;
-        width: 40%;
-        height: 40%;
-        border: 2px solid $border-blue;
-        border-radius: 12px;
-        margin: 5%;
-        position: relative;
-        min-height: 100px;
-        svg {
-            max-height: 65%;
-            max-width: 65%;
+        .line1 {
+            position: absolute;
+            left: 25%;
+            height: 100%;
+            width: 2px;
+            background-color: $border-blue;
+        }
+        .line2 {
+            position: absolute;
+            left: 75%;
+            height: 100%;
+            width: 2px;
+            background-color: $border-blue;
+        }
+        .circle {
+            max-height: 100%;
+            max-width: 100%;
             width: auto;
             height: auto;
             position: absolute;
@@ -30,23 +83,18 @@
             left: 0;
             right: 0;
             margin: auto;
+            padding: 15%;
         }
-        h2 {
-            z-index: 1;
-            line-height: 40px;
-            background-color: white;
-            font-family: Helvetica, Sans-Serif;
-            font-weight: bold;
-            color: $border-blue;
-            font-size: 21px;
+        h3 {
+            @include h3;
             text-align: center;
-            border: 2px solid $border-magenta;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
+            width: 60%;
+            margin: 0 auto;
             position: absolute;
-            left: -20px;
-            top: 10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 300px;
         }
     }
 }

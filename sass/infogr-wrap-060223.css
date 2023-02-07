@@ -195,25 +195,33 @@
 #infogr-wrap-060223-mobile {
   width: 100%;
   margin: 0px auto;
-  display: flex;
+  display: block;
 }
 @media (min-width: 848px) {
   #infogr-wrap-060223-mobile {
     display: none;
   }
 }
-#infogr-wrap-060223-mobile .box {
+#infogr-wrap-060223-mobile .d-flex {
+  display: flex;
+}
+#infogr-wrap-060223-mobile .d-flex .box {
   position: relative;
   display: inline-block;
   width: 40%;
   height: 40%;
   border: 2px solid #2393d1;
   border-radius: 12px;
-  margin: 5%;
+  margin: 0 5%;
   position: relative;
   min-height: 100px;
 }
-#infogr-wrap-060223-mobile .box svg {
+@media (min-width: 414px) {
+  #infogr-wrap-060223-mobile .d-flex .box {
+    min-height: 120px;
+  }
+}
+#infogr-wrap-060223-mobile .d-flex .box svg {
   max-height: 65%;
   max-width: 65%;
   width: auto;
@@ -225,7 +233,7 @@
   right: 0;
   margin: auto;
 }
-#infogr-wrap-060223-mobile .box h2 {
+#infogr-wrap-060223-mobile .d-flex .box h2 {
   z-index: 1;
   line-height: 40px;
   background-color: white;
@@ -241,4 +249,50 @@
   position: absolute;
   left: -20px;
   top: 10px;
+}
+#infogr-wrap-060223-mobile .circle-wrap {
+  height: 460px;
+  position: relative;
+}
+#infogr-wrap-060223-mobile .circle-wrap .line1 {
+  position: absolute;
+  left: 25%;
+  height: 100%;
+  width: 2px;
+  background-color: #2393d1;
+}
+#infogr-wrap-060223-mobile .circle-wrap .line2 {
+  position: absolute;
+  left: 75%;
+  height: 100%;
+  width: 2px;
+  background-color: #2393d1;
+}
+#infogr-wrap-060223-mobile .circle-wrap .circle {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 15%;
+}
+#infogr-wrap-060223-mobile .circle-wrap h3 {
+  font-family: Helvetica, Sans-Serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1a2352;
+  font-size: 15px;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
 }/*# sourceMappingURL=infogr-wrap-060223.css.map */
