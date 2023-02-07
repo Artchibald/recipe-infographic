@@ -194,7 +194,7 @@
 
 #infogr-wrap-060223-mobile {
   width: 100%;
-  margin: 0px auto;
+  margin: 40px auto;
   display: block;
 }
 @media (min-width: 848px) {
@@ -202,10 +202,17 @@
     display: none;
   }
 }
+#infogr-wrap-060223-mobile .hidden {
+  display: none;
+}
+#infogr-wrap-060223-mobile .clear {
+  clear: both;
+}
 #infogr-wrap-060223-mobile .d-flex {
   display: flex;
 }
 #infogr-wrap-060223-mobile .d-flex .box {
+  cursor: pointer;
   position: relative;
   display: inline-block;
   width: 40%;
@@ -220,6 +227,12 @@
   #infogr-wrap-060223-mobile .d-flex .box {
     min-height: 120px;
   }
+}
+#infogr-wrap-060223-mobile .d-flex .box:hover {
+  opacity: 0.7;
+}
+#infogr-wrap-060223-mobile .d-flex .box:hover svg {
+  opacity: 0.7;
 }
 #infogr-wrap-060223-mobile .d-flex .box svg {
   max-height: 65%;
@@ -253,6 +266,7 @@
 #infogr-wrap-060223-mobile .circle-wrap {
   height: 420px;
   position: relative;
+  overflow: hidden;
 }
 @media (min-width: 600px) {
   #infogr-wrap-060223-mobile .circle-wrap {

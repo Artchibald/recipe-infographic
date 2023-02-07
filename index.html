@@ -283,7 +283,7 @@
     </div>
     <div id="infogr-wrap-060223-mobile">
         <div class="d-flex">
-            <div class="box">
+            <div class="box" id="toggleButtonMob1">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 77 70" style="enable-background:new 0 0 77 70;" xml:space="preserve">
                   <g>
                      <path style="fill:#FFFFFF;stroke:#123B62;stroke-width:1.0971;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
@@ -315,7 +315,7 @@
                 <h2>4</h2>
             </div>
 
-            <div class="box">
+            <div class="box" id="toggleButtonMob2">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 77 78" style="enable-background:new 0 0 77 78;" xml:space="preserve">
             <g>
                <path style="fill:none;stroke:#94979A;stroke-width:1.2133;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
@@ -388,9 +388,21 @@
             </g>
          </svg>
             <h3>Intelligence and Investigation Services</h3>
+            <div class="hidden" id="toggleTextMob1">
+                <h1>MOB POP UP1</h1>
+            </div>
+            <div class="hidden" id="toggleTextMob2">
+                <h1>MOB POP UP2</h1>
+            </div>
+            <div class="hidden" id="toggleTextMob3">
+                <h1>MOB POP UP3</h1>
+            </div>
+            <div class="hidden" id="toggleTextMob4">
+                <h1>MOB POP UP4</h1>
+            </div>
         </div>
         <div class="d-flex">
-            <div class="box">
+            <div class="box" id="toggleButtonMob3">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 68" style="enable-background:new 0 0 53 68;" xml:space="preserve">
                   <g>
                      <path style="fill:#FFFFFF;stroke:#94979A;stroke-width:1.0971;stroke-linecap:round;stroke-linejoin:round;" d="M15.282,67.128
@@ -429,8 +441,7 @@
                </svg>
                 <h2>4</h2>
             </div>
-
-            <div class="box">
+            <div class="box" id="toggleButtonMob4">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 66 60" style="enable-background:new 0 0 66 60;" xml:space="preserve">
                   <g id="Layer_1">
                   </g>
@@ -480,8 +491,6 @@
         </div>
     </div>
 
-
-
     <script>
         //toggle 1
         const toggleTextOne = document.getElementById('toggleText1');
@@ -500,6 +509,31 @@
         const toggleButtonThree = document.getElementById('toggleButton3');
         toggleButtonThree.addEventListener('click', () => {
             toggleTextThree.classList.toggle('hidden');
+        });
+
+        const toggleTexts = [
+            document.getElementById('toggleTextMob1'),
+            document.getElementById('toggleTextMob2'),
+            document.getElementById('toggleTextMob3'),
+            document.getElementById('toggleTextMob4')
+        ];
+        const toggleButtons = [
+            document.getElementById('toggleButtonMob1'),
+            document.getElementById('toggleButtonMob2'),
+            document.getElementById('toggleButtonMob3'),
+            document.getElementById('toggleButtonMob4')
+        ];
+
+        toggleButtons.forEach((toggleButton, index) => {
+            toggleButton.addEventListener('click', () => {
+                toggleTexts.forEach((toggleText, i) => {
+                    if (i === index) {
+                        toggleText.classList.toggle('hidden');
+                    } else {
+                        toggleText.classList.add('hidden');
+                    }
+                });
+            });
         });
     </script>
 </body>
