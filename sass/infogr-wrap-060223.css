@@ -257,7 +257,7 @@
   top: 10px;
 }
 #infogr-wrap-060223-mobile .circle-wrap {
-  height: 420px;
+  height: 440px;
   position: relative;
   overflow: hidden;
 }
@@ -281,8 +281,8 @@
   background-color: #2393d1;
 }
 #infogr-wrap-060223-mobile .circle-wrap .circle {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 95%;
+  max-width: 95%;
   width: auto;
   height: auto;
   position: absolute;
@@ -291,12 +291,6 @@
   left: 0;
   right: 0;
   margin: auto;
-  padding: 14%;
-}
-@media (min-width: 600px) {
-  #infogr-wrap-060223-mobile .circle-wrap .circle {
-    padding: 18%;
-  }
 }
 #infogr-wrap-060223-mobile .circle-wrap h3.title {
   font-family: Helvetica, Sans-Serif;
@@ -320,6 +314,9 @@
 }
 #infogr-wrap-060223-mobile .circle-wrap .hidden {
   display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 #infogr-wrap-060223-mobile .circle-wrap #toggleTextMob1,
 #infogr-wrap-060223-mobile .circle-wrap #toggleTextMob2,
