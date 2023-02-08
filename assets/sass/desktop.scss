@@ -1,10 +1,25 @@
 @import './vars.scss';
 @import './mixins.scss';
+@import './animations.scss';
 #infogr-wrap-060223-desktop {
     @include desktop-wrap;
     //hide toggle 
     .hidden {
-        display: none;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        scale: 0;
+        overflow: hidden;
+        transform-origin: top left;
+        transition: all 0.2s ease-out;
+    }
+    .visible {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+        scale: 1;
+        transform-origin: top left;
+        transition: all 0.2s ease-in;
     }
     // clear
     .clear {
@@ -14,6 +29,7 @@
         @include column-styles;
         .box {
             @include box;
+            z-index: 1;
             h2 {
                 @include h2;
             }
