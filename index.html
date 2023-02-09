@@ -90,8 +90,8 @@
                 </div>
                 <div class="col-75">
                     <p>Investigation Report</p><br />
-                    <button id="toggleButton1">+</button>
-                    <div class="toggledText hidden" id="toggleText1">
+                    <button id="toggle060223Button1">+</button>
+                    <div class="toggledText hidden" id="toggle060223Text1">
                         <p>People</p>
                         <p>Organizations</p>
                         <p>Servers</p>
@@ -234,8 +234,8 @@
                 </div>
                 <div class="col-75">
                     <p>Technical Analysis</p><br />
-                    <button id="toggleButton2">+</button>
-                    <div class="toggledText hidden" id="toggleText2">
+                    <button id="toggle060223Button2">+</button>
+                    <div class="toggledText hidden" id="toggle060223Text2">
                         <p>Authentication servers</p>
                         <p>EPG servers</p>
                         <p>Update servers</p>
@@ -270,8 +270,8 @@
                 <div class="col-75 ">
                     <p>Investigation</p>
                     <br />
-                    <button id="toggleButton3">+</button>
-                    <div class="toggledText hidden" id="toggleText3">
+                    <button id="toggle060223Button3">+</button>
+                    <div class="toggledText hidden" id="toggle060223Text3">
                         <p>Companies</p>
                         <p>Individuals</p>
                         <p>Social media accounts</p>
@@ -284,7 +284,7 @@
     </div>
     <div id="infogr-wrap-060223-mobile">
         <div class="d-flex">
-            <div class="box box-4-anim" id="toggleButtonMob1">
+            <div class="box box-4-anim" id="toggleButton060223Mob1">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 77 70" style="enable-background:new 0 0 77 70;" xml:space="preserve">
                   <g>
                      <path class="path" style="fill:#FFFFFF;stroke:#123B62;stroke-width:1.0971;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
@@ -316,7 +316,7 @@
                 <h2>4</h2>
             </div>
 
-            <div class="box box-1-anim" id="toggleButtonMob2">
+            <div class="box box-1-anim" id="toggleButton060223Mob2">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 77 78" style="enable-background:new 0 0 77 78;" xml:space="preserve">
             <g>
                <path class="path" style="fill:none;stroke:#94979A;stroke-width:1.2133;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
@@ -389,7 +389,7 @@
             </g>
          </svg>
             <h3 class="title">Intelligence and Investigation Services</h3>
-            <div class="hidden" id="toggleTextMob1">
+            <div class="hidden" id="toggleText060223Mob1">
                 <h2>4</h2>
                 <h3>Support law enforcement & legal action </h3>
                 <div class="content-wrap">
@@ -429,7 +429,7 @@
                 </div>
 
             </div>
-            <div class="hidden" id="toggleTextMob2">
+            <div class="hidden" id="toggleText060223Mob2">
                 <h2>1</h2>
                 <h3>Identify pirate service of&nbsp;interests </h3>
                 <div class="content-wrap">
@@ -484,7 +484,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hidden" id="toggleTextMob3">
+            <div class="hidden" id="toggleText060223Mob3">
                 <h2>3</h2>
                 <h3>Generate reports & enforcement strategy</h3>
                 <div class="content-wrap">
@@ -539,7 +539,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hidden" id="toggleTextMob4">
+            <div class="hidden" id="toggleText060223Mob4">
                 <h2>2</h2>
                 <h3>Undertake analysis & investigations</h3>
                 <div class="content-wrap">
@@ -659,7 +659,7 @@
             </div>
         </div>
         <div class="d-flex">
-            <div class="box box-3-anim" id="toggleButtonMob3">
+            <div class="box box-3-anim" id="toggleButton060223Mob3">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 68" style="enable-background:new 0 0 53 68;" xml:space="preserve">
                   <g>
                      <path class="path" style="fill:#FFFFFF;stroke:#94979A;stroke-width:1.0971;stroke-linecap:round;stroke-linejoin:round;" d="M15.282,67.128
@@ -698,7 +698,7 @@
                </svg>
                 <h2>3</h2>
             </div>
-            <div class="box box-2-anim" id="toggleButtonMob4">
+            <div class="box box-2-anim" id="toggleButton060223Mob4">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 66 60" style="enable-background:new 0 0 66 60;" xml:space="preserve">
                   <g id="Layer_1">
                   </g>
@@ -749,54 +749,49 @@
     </div>
     <script>
         //desk toggle 1
-        const toggleTextOne = document.getElementById('toggleText1');
-        const toggleButtonOne = document.getElementById('toggleButton1');
-        toggleButtonOne.addEventListener('click', () => {
-            toggleTextOne.classList.toggle('hidden');
-            toggleTextOne.classList.toggle('visible');
+        const toggleTextOne060223 = document.getElementById('toggle060223Text1');
+        const toggleButtonOne060223 = document.getElementById('toggle060223Button1');
+        toggleButtonOne060223.addEventListener('click', () => {
+            toggleTextOne060223.classList.toggle('hidden');
+            toggleTextOne060223.classList.toggle('visible');
         });
         //desk toggle 2
-        const toggleTextTwo = document.getElementById('toggleText2');
-        const toggleButtonTwo = document.getElementById('toggleButton2');
-        toggleButtonTwo.addEventListener('click', () => {
-            toggleTextTwo.classList.toggle('hidden');
-            toggleTextTwo.classList.toggle('visible');
+        const toggleTextTwo060223 = document.getElementById('toggle060223Text2');
+        const toggleButtonTwo060223 = document.getElementById('toggle060223Button2');
+        toggleButtonTwo060223.addEventListener('click', () => {
+            toggleTextTwo060223.classList.toggle('hidden');
+            toggleTextTwo060223.classList.toggle('visible');
         });
         //desk toggle 3
-        const toggleTextThree = document.getElementById('toggleText3');
-        const toggleButtonThree = document.getElementById('toggleButton3');
-        toggleButtonThree.addEventListener('click', () => {
-            toggleTextThree.classList.toggle('hidden');
-            toggleTextThree.classList.toggle('visible');
+        const toggleTextThree060223 = document.getElementById('toggle060223Text3');
+        const toggleButtonThree060223 = document.getElementById('toggle060223Button3');
+        toggleButtonThree060223.addEventListener('click', () => {
+            toggleTextThree060223.classList.toggle('hidden');
+            toggleTextThree060223.classList.toggle('visible');
         });
         // mobile toggles need to be in array so they interact with each other
-        const toggleTexts = [
-            document.getElementById('toggleTextMob1'),
-            document.getElementById('toggleTextMob2'),
-            document.getElementById('toggleTextMob3'),
-            document.getElementById('toggleTextMob4')
+        const toggle060223Texts = [
+            document.getElementById('toggleText060223Mob1'),
+            document.getElementById('toggleText060223Mob2'),
+            document.getElementById('toggleText060223Mob3'),
+            document.getElementById('toggleText060223Mob4')
         ];
-        const toggleButtons = [
-            document.getElementById('toggleButtonMob1'),
-            document.getElementById('toggleButtonMob2'),
-            document.getElementById('toggleButtonMob3'),
-            document.getElementById('toggleButtonMob4')
+        const toggle060223Buttons = [
+            document.getElementById('toggleButton060223Mob1'),
+            document.getElementById('toggleButton060223Mob2'),
+            document.getElementById('toggleButton060223Mob3'),
+            document.getElementById('toggleButton060223Mob4')
         ];
 
-        toggleButtons.forEach((toggleButton, index) => {
-            toggleButton.addEventListener('click', () => {
-
-                toggleTexts.forEach((toggleText, i) => {
-
-
-
+        toggle060223Buttons.forEach((toggle060223Button, index) => {
+            toggle060223Button.addEventListener('click', () => {
+                toggle060223Texts.forEach((toggle060223Text, i) => {
                     if (i === index) {
-                        toggleText.classList.toggle('hidden');
-                        toggleText.classList.toggle('visible');
+                        toggle060223Text.classList.toggle('hidden');
+                        toggle060223Text.classList.toggle('visible');
                     } else {
-                        toggleText.classList.add('hidden');
-                        toggleText.classList.remove('visible');
-
+                        toggle060223Text.classList.add('hidden');
+                        toggle060223Text.classList.remove('visible');
                     }
                 });
             });
