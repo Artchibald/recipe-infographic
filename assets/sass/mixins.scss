@@ -148,6 +148,7 @@
     p {
         display: block;
         margin: 4px 0 0 16px;
+        transition: all 0.2s ease-in-out;
         &::before {
             content: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 4.187 7.374' style='enable-background:new 0 0 4.187 7.374;' xml:space='preserve'%3E%3Cpolyline style='fill:none;stroke:%23E01271;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;' points='0.5,0.5 3.687,3.687 0.5,6.874 '/%3E%3C/svg%3E");
             color: $border-magenta;
@@ -157,6 +158,7 @@
             width: 6px;
             height: 6px;
             display: block;
+            transition: all 0.2s ease-in-out;
         }
     }
 }

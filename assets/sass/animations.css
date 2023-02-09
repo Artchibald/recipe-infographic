@@ -86,13 +86,15 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes dashMob {
+@-webkit-keyframes dash {
   to {
+    stroke-dasharray: 223;
     stroke-dashoffset: 892;
   }
 }
-@keyframes dashMob {
+@keyframes dash {
   to {
+    stroke-dasharray: 223;
     stroke-dashoffset: 892;
   }
 }
@@ -100,131 +102,171 @@
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .box-1-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 5.5s linear infinite;
-          animation: dash 5.5s linear infinite;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 #infogr-wrap-060223-mobile .box-2-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .box-2-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 #infogr-wrap-060223-mobile .box-3-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .box-3-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 #infogr-wrap-060223-mobile .box-4-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .box-4-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 #infogr-wrap-060223-desktop .box-1-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-desktop .box-1-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 5.5s linear infinite;
-          animation: dash 5.5s linear infinite;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 #infogr-wrap-060223-desktop .box-2-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-desktop .box-2-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 #infogr-wrap-060223-desktop .box-3-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-desktop .box-3-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 #infogr-wrap-060223-desktop .box-4-anim {
   opacity: 0;
   -webkit-animation: 1s ease-out 0s 1 fadeInText;
           animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-desktop .box-4-anim svg .path {
-  stroke-dasharray: 223;
-  stroke-dashoffset: 892;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
+  stroke-dasharray: 178;
+  stroke-dashoffset: 592;
+  -webkit-animation: dash 1s linear;
+          animation: dash 1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
-#infogr-wrap-060223-mobile .circle-wrap .line1,
+#infogr-wrap-060223-mobile .circle-wrap .line1 {
+  opacity: 0;
+  -webkit-animation: 0.5s ease-out 2s 1 fadeInText;
+          animation: 0.5s ease-out 2s 1 fadeInText;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
 #infogr-wrap-060223-mobile .circle-wrap .line2 {
   opacity: 0;
-  -webkit-animation: 1s ease-out 2s 1 fadeInText;
-          animation: 1s ease-out 2s 1 fadeInText;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation: 0.5s ease-out 2s 1 fadeInText;
+          animation: 0.5s ease-out 2s 1 fadeInText;
+  -webkit-animation-delay: 5.1s;
+          animation-delay: 5.1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -232,21 +274,25 @@
   opacity: 0;
   -webkit-animation: 0.2s ease-out 0s 1 slideInFromTop;
           animation: 0.2s ease-out 0s 1 slideInFromTop;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .circle-wrap h3.title {
   opacity: 0;
-  -webkit-animation: 1s ease-out 2s 1 fadeInText;
-          animation: 1s ease-out 2s 1 fadeInText;
-  -webkit-animation-delay: 1.8s;
-          animation-delay: 1.8s;
+  -webkit-animation: 1s ease-out 0s 1 fadeInText;
+          animation: 1s ease-out 0s 1 fadeInText;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
+#infogr-wrap-060223-desktop .col .box {
+  scale: 1;
+  transition: all 0.2s ease-out;
+}
 #infogr-wrap-060223-desktop .col .box:hover {
   scale: 1.03;
   transition: all 0.2s ease-out;
@@ -267,13 +313,21 @@
   -webkit-animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
           animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
 }
-#infogr-wrap-060223-desktop .col .line1,
+#infogr-wrap-060223-desktop .col .line1 {
+  opacity: 0;
+  -webkit-animation: 1s ease-out 0s 1 fadeInText;
+          animation: 1s ease-out 0s 1 fadeInText;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
 #infogr-wrap-060223-desktop .col .line2 {
   opacity: 0;
-  -webkit-animation: 1s ease-out 2s 1 fadeInText;
-          animation: 1s ease-out 2s 1 fadeInText;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation: 1s ease-out 0s 1 fadeInText;
+          animation: 1s ease-out 0s 1 fadeInText;
+  -webkit-animation-delay: 8.1s;
+          animation-delay: 8.1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -281,22 +335,17 @@
   opacity: 0;
   -webkit-animation: 0.2s ease-out 0s 1 slideInFromTop;
           animation: 0.2s ease-out 0s 1 slideInFromTop;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-desktop .col .circle .path {
-  stroke-dasharray: 223;
-  -webkit-animation: dash 1.5s linear;
-          animation: dash 1.5s linear;
-}
 #infogr-wrap-060223-desktop .col h3.title {
   opacity: 0;
-  -webkit-animation: 1s ease-out 2s 1 fadeInText;
-          animation: 1s ease-out 2s 1 fadeInText;
-  -webkit-animation-delay: 1.8s;
-          animation-delay: 1.8s;
+  -webkit-animation: 1s ease-out 1 fadeInText;
+          animation: 1s ease-out 1 fadeInText;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }/*# sourceMappingURL=animations.css.map */

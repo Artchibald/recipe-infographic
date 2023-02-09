@@ -11,7 +11,7 @@
         scale: 0;
         overflow: hidden;
         transform-origin: top left;
-        transition: all 0.2s ease-out;
+        transition: all 0.2s ease-in-out;
     }
     .visible {
         visibility: visible;
@@ -19,7 +19,7 @@
         height: auto;
         scale: 1;
         transform-origin: top left;
-        transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in-out;
     }
     // clear
     .clear {
@@ -44,15 +44,20 @@
             }
             .col-75 {
                 @include col-75;
+                @media (min-width: 1228px) {
+                    width: 75%;
+                }
                 button {
                     @include button-style;
+                    display: inline-block;
+                    vertical-align: top;
                 }
                 .toggledText {
                     margin: 0 0 0 20px;
-                    @media(min-width: 1200px) {
-                        position: relative;
-                        left: 40px;
-                        top: -38px;
+                    transition: all 0.2s ease-in-out;
+                    display: inline-block;
+                    @media(min-width: 1228px) {
+                        margin: 0;
                     }
                     @include toggled-p;
                 }

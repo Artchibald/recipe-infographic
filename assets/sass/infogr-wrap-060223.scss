@@ -48,11 +48,6 @@
                 left: 0;
                 right: 0;
                 margin: auto;
-                // .path {
-                //     stroke-dasharray: 223;
-                //     stroke-dashoffset: 892;
-                //     animation: dash 1.5s linear;
-                // }
             }
             h2 {
                 line-height: 40px;
@@ -104,11 +99,6 @@
             left: 0;
             right: 0;
             margin: auto;
-            // animation: 0.2s ease-out 0s 1 slideInFromTop;
-            // padding: 14%;
-            // @media (min-width: 600px) {
-            //     padding: 18%; 
-            // }
         }
         h3.title {
             @include h3;
@@ -120,7 +110,6 @@
             left: 50%;
             transform: translate(-50%, -50%);
             max-width: 190px;
-            // animation: 1s ease-out 0s 1 fadeInText;
             @media (min-width: 600px) {
                 max-width: 260px;
             }
