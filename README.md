@@ -23,16 +23,28 @@ MAKE LINES APPEAR LAST
 SLOW DOWN SO TIME TO READ
 
 
-Add titiles back in on 6 icon box in the popusp
+DONE Add titiles back in on 6 icon box in the popusp
 
-+ main blue title repeated beneath lower blue icon stat
+DONE main blue title repeated beneath lower blue icon stat
 
-close X on 2 infogs
+DONE close X on 2 infogs
 
-ADD + on mobile
-
-Add close x on 2 infographics
+DONE ADD + on mobile
 
 if time animtate border with an svg
+
+DONE circle smaller on mbolie on 4 icons - Couldn't tweak much because  of longest pop up
+
+DONE line height 
+
+DONE new chart more time between each box coming and each blue arrow
+
+DONE mobile new chart title space below reduce mobile
+
+
+
+
+
+
 
 

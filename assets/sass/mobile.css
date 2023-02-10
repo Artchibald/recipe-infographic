@@ -305,7 +305,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 27px;
   right: 0;
   margin: auto;
 }
@@ -373,7 +373,7 @@
   font-weight: bold;
   color: #1a2352;
   font-size: 15px;
-  line-height: 15px;
+  line-height: 18px;
   text-align: center;
   width: 60%;
   margin: 0 auto;
@@ -469,7 +469,7 @@
   font-weight: bold;
   color: #1a2352;
   font-size: 15px;
-  line-height: 15px;
+  line-height: 18px;
   margin: 20px 20px 20px 60px;
   max-width: 216px;
 }

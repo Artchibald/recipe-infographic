@@ -96,6 +96,7 @@
     font-weight: bold;
     color: $border-blue;
     font-size: 21px;
+    line-height: 21px;
     text-align: center;
     border: 2px solid $border-magenta;
     border-radius: 50%;
@@ -116,7 +117,7 @@
     font-weight: bold;
     color: $text-blue;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 18px;
 }
 
 @mixin p {
