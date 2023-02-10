@@ -27,7 +27,7 @@
     }
     .col {
         @include column-styles;
-        .box {
+        .box100223 {
             @include box;
             z-index: 1;
             h2 {

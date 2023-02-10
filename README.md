@@ -25,9 +25,9 @@ SLOW DOWN SO TIME TO READ
 
 Add titiles back in on 6 icon box in the popusp
 
-+ main blue title repeated beneath
++ main blue title repeated beneath lower blue icon stat
 
-close X
+close X on 2 infogs
 
 ADD + on mobile
 

@@ -2,14 +2,14 @@
 @import './mixins.scss';
 #infogr-wrap-060223-mobile {
     width: 100%;
-    margin: 40px auto;
+    margin: 0 auto 40px auto;
     display: block;
-    @media (min-width: 848px) {
+    @media (min-width: 970px) {
         display: none;
     }
     .d-flex {
         display: flex;
-        .box {
+        .box100223 {
             cursor: pointer;
             position: relative;
             display: inline-block;
@@ -65,20 +65,20 @@
         }
     }
     .circle-wrap {
-        height: 440px;
+        height: 340px;
         position: relative;
         overflow: hidden;
         @media (min-width: 600px) {
-            height: 560px;
+            height: 520px;
         }
-        .line1 {
+        .line1-100223 {
             position: absolute;
             left: 25%;
             height: 100%;
             width: 2px;
             background-color: $border-blue;
         }
-        .line2 {
+        .line2-100223 {
             position: absolute;
             left: 75%;
             height: 100%;
@@ -86,8 +86,8 @@
             background-color: $border-blue;
         }
         .circle {
-            max-height: 95%;
-            max-width: 95%;
+            max-height: 90%;
+            max-width: 90%;
             width: auto;
             height: auto;
             position: absolute;
@@ -96,6 +96,10 @@
             left: 0;
             right: 0;
             margin: auto;
+            @media (min-width: 600px) {
+                max-height: 97%;
+                max-width: 97%;
+            }
         }
         h3.title {
             @include h3;

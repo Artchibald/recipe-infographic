@@ -58,61 +58,69 @@
 #infogr-wrap-060223-mobile {
     .box-1-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 1s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 1s;
+                }
             }
         }
     }
     .box-2-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 2s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 2s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 2s;
+                }
             }
         }
     }
     .box-3-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 3s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 3s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
             }
         }
     }
     .box-4-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 4s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 4s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 4s;
+                }
             }
         }
     }
@@ -121,61 +129,69 @@
 #infogr-wrap-060223-desktop {
     .box-1-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 1s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 1s;
+                }
             }
         }
     }
     .box-2-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 3s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 3s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
             }
         }
     }
     .box-3-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 5s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 5s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 5s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 5s;
+                }
             }
         }
     }
     .box-4-anim {
         opacity: 0;
-        animation: 1s ease-out 0s 1 fadeInText;
-        animation-delay: 7s;
-        animation-fill-mode: forwards;
-        svg {
-            .path {
-                stroke-dasharray: 178;
-                stroke-dashoffset: 592;
-                animation: dash 1s linear;
-                animation-fill-mode: forwards;
-                animation-delay: 7s;
+        &.start {
+            animation: 1s ease-out 0s 1 fadeInText;
+            animation-delay: 7s;
+            animation-fill-mode: forwards;
+            svg {
+                .path {
+                    stroke-dasharray: 178;
+                    stroke-dashoffset: 592;
+                    animation: dash 1s linear;
+                    animation-fill-mode: forwards;
+                    animation-delay: 7s;
+                }
             }
         }
     }
@@ -183,36 +199,44 @@
 
 #infogr-wrap-060223-mobile {
     .circle-wrap {
-        .line1 {
+        .line1-100223 {
             opacity: 0;
-            animation: 0.5s ease-out 2s 1 fadeInText;
-            animation-delay: 5s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 0.5s ease-out 2s 1 fadeInText;
+                animation-delay: 5s;
+                animation-fill-mode: forwards;
+            }
         }
-        .line2 {
+        .line2-100223 {
             opacity: 0;
-            animation: 0.5s ease-out 2s 1 fadeInText;
-            animation-delay: 5.1s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 0.5s ease-out 2s 1 fadeInText;
+                animation-delay: 5.1s;
+                animation-fill-mode: forwards;
+            }
         }
         .circle {
             opacity: 0;
-            animation: 0.2s ease-out 0s 1 slideInFromTop;
-            animation-delay: 0.3s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 0.2s ease-out 0s 1 slideInFromTop;
+                animation-delay: 0.3s;
+                animation-fill-mode: forwards;
+            }
         }
         h3.title {
             opacity: 0;
-            animation: 1s ease-out 0s 1 fadeInText;
-            animation-delay: 0s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 1s ease-out 0s 1 fadeInText;
+                animation-delay: 0s;
+                animation-fill-mode: forwards;
+            }
         }
     }
 }
 
 #infogr-wrap-060223-desktop {
     .col {
-        .box {
+        .box100223 {
             scale: 1;
             transition: all 0.2s ease-out;
             &:hover {
@@ -235,29 +259,37 @@
                 }
             }
         }
-        .line1 {
+        .line1-100223 {
             opacity: 0;
-            animation: 1s ease-out 0s 1 fadeInText;
-            animation-delay: 8s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 1s ease-out 0s 1 fadeInText;
+                animation-delay: 8s;
+                animation-fill-mode: forwards;
+            }
         }
-        .line2 {
+        .line2-100223 {
             opacity: 0;
-            animation: 1s ease-out 0s 1 fadeInText;
-            animation-delay: 8.1s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 1s ease-out 0s 1 fadeInText;
+                animation-delay: 8.1s;
+                animation-fill-mode: forwards;
+            }
         }
         .circle {
             opacity: 0;
-            animation: 0.2s ease-out 0s 1 slideInFromTop;
-            animation-delay: 0.3s;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 0.2s ease-out 0s 1 slideInFromTop;
+                animation-delay: 0.3s;
+                animation-fill-mode: forwards;
+            }
         }
         h3.title {
             opacity: 0;
-            animation: 1s ease-out 1 fadeInText;
-            animation-delay: 0;
-            animation-fill-mode: forwards;
+            &.start {
+                animation: 1s ease-out 1 fadeInText;
+                animation-delay: 0;
+                animation-fill-mode: forwards;
+            }
         }
     }
 }

@@ -1,27 +1,7 @@
-@-webkit-keyframes slideInFromTop {
-  0% {
-    opacity: 0;
-    transform: translateY(-20%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 @keyframes slideInFromTop {
   0% {
     opacity: 0;
     transform: translateY(-20%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20%);
   }
   100% {
     opacity: 1;
@@ -38,25 +18,9 @@
     transform: translateY(0);
   }
 }
-@-webkit-keyframes slideInFromTopNoFade {
-  0% {
-    transform: translateY(10%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes slideInFromTopNoFade {
   0% {
     transform: translateY(10%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-@-webkit-keyframes slideInFromBottomNoFade {
-  0% {
-    transform: translateY(-20%);
   }
   100% {
     transform: translateY(0);
@@ -70,26 +34,12 @@
     transform: translateY(0);
   }
 }
-@-webkit-keyframes fadeInText {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fadeInText {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes dash {
-  to {
-    stroke-dasharray: 223;
-    stroke-dashoffset: 892;
   }
 }
 @keyframes dash {
@@ -100,262 +50,219 @@
 }
 #infogr-wrap-060223-mobile .box-1-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-mobile .box-1-anim svg .path {
+#infogr-wrap-060223-mobile .box-1-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .box-1-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 #infogr-wrap-060223-mobile .box-2-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-mobile .box-2-anim svg .path {
+#infogr-wrap-060223-mobile .box-2-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .box-2-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
 #infogr-wrap-060223-mobile .box-3-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-mobile .box-3-anim svg .path {
+#infogr-wrap-060223-mobile .box-3-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .box-3-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 #infogr-wrap-060223-mobile .box-4-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-mobile .box-4-anim svg .path {
+#infogr-wrap-060223-mobile .box-4-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .box-4-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
 }
 
 #infogr-wrap-060223-desktop .box-1-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-desktop .box-1-anim svg .path {
+#infogr-wrap-060223-desktop .box-1-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .box-1-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 #infogr-wrap-060223-desktop .box-2-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-desktop .box-2-anim svg .path {
+#infogr-wrap-060223-desktop .box-2-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .box-2-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 #infogr-wrap-060223-desktop .box-3-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-desktop .box-3-anim svg .path {
+#infogr-wrap-060223-desktop .box-3-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .box-3-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
 }
 #infogr-wrap-060223-desktop .box-4-anim {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-desktop .box-4-anim svg .path {
+#infogr-wrap-060223-desktop .box-4-anim.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .box-4-anim.start svg .path {
   stroke-dasharray: 178;
   stroke-dashoffset: 592;
-  -webkit-animation: dash 1s linear;
-          animation: dash 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  animation: dash 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
 }
 
-#infogr-wrap-060223-mobile .circle-wrap .line1 {
+#infogr-wrap-060223-mobile .circle-wrap .line1-100223 {
   opacity: 0;
-  -webkit-animation: 0.5s ease-out 2s 1 fadeInText;
-          animation: 0.5s ease-out 2s 1 fadeInText;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-mobile .circle-wrap .line2 {
+#infogr-wrap-060223-mobile .circle-wrap .line1-100223.start {
+  animation: 0.5s ease-out 2s 1 fadeInText;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .circle-wrap .line2-100223 {
   opacity: 0;
-  -webkit-animation: 0.5s ease-out 2s 1 fadeInText;
-          animation: 0.5s ease-out 2s 1 fadeInText;
-  -webkit-animation-delay: 5.1s;
-          animation-delay: 5.1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .circle-wrap .line2-100223.start {
+  animation: 0.5s ease-out 2s 1 fadeInText;
+  animation-delay: 5.1s;
+  animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .circle-wrap .circle {
   opacity: 0;
-  -webkit-animation: 0.2s ease-out 0s 1 slideInFromTop;
-          animation: 0.2s ease-out 0s 1 slideInFromTop;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .circle-wrap .circle.start {
+  animation: 0.2s ease-out 0s 1 slideInFromTop;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-mobile .circle-wrap h3.title {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-mobile .circle-wrap h3.title.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
 
-#infogr-wrap-060223-desktop .col .box {
+#infogr-wrap-060223-desktop .col .box100223 {
   scale: 1;
   transition: all 0.2s ease-out;
 }
-#infogr-wrap-060223-desktop .col .box:hover {
+#infogr-wrap-060223-desktop .col .box100223:hover {
   scale: 1.03;
   transition: all 0.2s ease-out;
 }
-#infogr-wrap-060223-desktop .col .box:hover svg {
+#infogr-wrap-060223-desktop .col .box100223:hover svg {
   scale: 1.06;
   transition: all 0.4s ease-out;
 }
-#infogr-wrap-060223-desktop .col .box h2 {
-  -webkit-animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
-          animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
+#infogr-wrap-060223-desktop .col .box100223 h2 {
+  animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
 }
-#infogr-wrap-060223-desktop .col .box h3 {
-  -webkit-animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
-          animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
+#infogr-wrap-060223-desktop .col .box100223 h3 {
+  animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
 }
-#infogr-wrap-060223-desktop .col .box .col-75 button {
-  -webkit-animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
-          animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
+#infogr-wrap-060223-desktop .col .box100223 .col-75 button {
+  animation: 0.9s ease-out 0s 1 slideInFromBottomNoFade;
 }
-#infogr-wrap-060223-desktop .col .line1 {
+#infogr-wrap-060223-desktop .col .line1-100223 {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-#infogr-wrap-060223-desktop .col .line2 {
+#infogr-wrap-060223-desktop .col .line1-100223.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .col .line2-100223 {
   opacity: 0;
-  -webkit-animation: 1s ease-out 0s 1 fadeInText;
-          animation: 1s ease-out 0s 1 fadeInText;
-  -webkit-animation-delay: 8.1s;
-          animation-delay: 8.1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .col .line2-100223.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 8.1s;
+  animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-desktop .col .circle {
   opacity: 0;
-  -webkit-animation: 0.2s ease-out 0s 1 slideInFromTop;
-          animation: 0.2s ease-out 0s 1 slideInFromTop;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .col .circle.start {
+  animation: 0.2s ease-out 0s 1 slideInFromTop;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
 }
 #infogr-wrap-060223-desktop .col h3.title {
   opacity: 0;
-  -webkit-animation: 1s ease-out 1 fadeInText;
-          animation: 1s ease-out 1 fadeInText;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+#infogr-wrap-060223-desktop .col h3.title.start {
+  animation: 1s ease-out 1 fadeInText;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
 }
 
 #infogr-wrap-060223-mobile {
   width: 100%;
-  margin: 40px auto;
+  margin: 0 auto 40px auto;
   display: block;
 }
-@media (min-width: 848px) {
+@media (min-width: 970px) {
   #infogr-wrap-060223-mobile {
     display: none;
   }
@@ -363,7 +270,7 @@
 #infogr-wrap-060223-mobile .d-flex {
   display: flex;
 }
-#infogr-wrap-060223-mobile .d-flex .box {
+#infogr-wrap-060223-mobile .d-flex .box100223 {
   cursor: pointer;
   position: relative;
   display: inline-block;
@@ -378,19 +285,19 @@
   z-index: 1;
 }
 @media (min-width: 414px) {
-  #infogr-wrap-060223-mobile .d-flex .box {
+  #infogr-wrap-060223-mobile .d-flex .box100223 {
     min-height: 120px;
   }
 }
-#infogr-wrap-060223-mobile .d-flex .box:hover {
+#infogr-wrap-060223-mobile .d-flex .box100223:hover {
   scale: 1.03;
   transition: all 0.2s ease-out;
 }
-#infogr-wrap-060223-mobile .d-flex .box:hover svg {
+#infogr-wrap-060223-mobile .d-flex .box100223:hover svg {
   scale: 1.3;
   transition: all 0.4s ease-out;
 }
-#infogr-wrap-060223-mobile .d-flex .box svg {
+#infogr-wrap-060223-mobile .d-flex .box100223 svg {
   max-height: 65%;
   max-width: 65%;
   width: auto;
@@ -402,7 +309,7 @@
   right: 0;
   margin: auto;
 }
-#infogr-wrap-060223-mobile .d-flex .box h2 {
+#infogr-wrap-060223-mobile .d-flex .box100223 h2 {
   line-height: 40px;
   background-color: white;
   font-family: Helvetica, Sans-Serif;
@@ -419,23 +326,23 @@
   top: 10px;
 }
 #infogr-wrap-060223-mobile .circle-wrap {
-  height: 440px;
+  height: 340px;
   position: relative;
   overflow: hidden;
 }
 @media (min-width: 600px) {
   #infogr-wrap-060223-mobile .circle-wrap {
-    height: 560px;
+    height: 520px;
   }
 }
-#infogr-wrap-060223-mobile .circle-wrap .line1 {
+#infogr-wrap-060223-mobile .circle-wrap .line1-100223 {
   position: absolute;
   left: 25%;
   height: 100%;
   width: 2px;
   background-color: #2393d1;
 }
-#infogr-wrap-060223-mobile .circle-wrap .line2 {
+#infogr-wrap-060223-mobile .circle-wrap .line2-100223 {
   position: absolute;
   left: 75%;
   height: 100%;
@@ -443,8 +350,8 @@
   background-color: #2393d1;
 }
 #infogr-wrap-060223-mobile .circle-wrap .circle {
-  max-height: 95%;
-  max-width: 95%;
+  max-height: 90%;
+  max-width: 90%;
   width: auto;
   height: auto;
   position: absolute;
@@ -454,12 +361,19 @@
   right: 0;
   margin: auto;
 }
+@media (min-width: 600px) {
+  #infogr-wrap-060223-mobile .circle-wrap .circle {
+    max-height: 97%;
+    max-width: 97%;
+  }
+}
 #infogr-wrap-060223-mobile .circle-wrap h3.title {
   font-family: Helvetica, Sans-Serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #1a2352;
   font-size: 15px;
+  line-height: 15px;
   text-align: center;
   width: 60%;
   margin: 0 auto;
@@ -509,9 +423,9 @@
 }
 @media (min-width: 414px) {
   #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob1,
-#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2,
-#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob3,
-#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob4 {
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2,
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob3,
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob4 {
     min-height: 120px;
   }
 }
@@ -543,6 +457,7 @@
   font-weight: bold;
   color: #1a2352;
   font-size: 15px;
+  line-height: 15px;
   margin: 20px 20px 20px 60px;
   max-width: 270px;
 }
@@ -589,6 +504,7 @@
   color: #123b62;
   font-size: 15px;
   display: inline-block;
+  line-height: 15px;
   display: block;
   background-image: none;
   margin: 0px 0 0 21px;
