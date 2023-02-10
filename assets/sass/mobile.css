@@ -429,6 +429,18 @@
     min-height: 120px;
   }
 }
+#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob1 span.closeBtn100223 svg,
+#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2 span.closeBtn100223 svg,
+#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob3 span.closeBtn100223 svg,
+#infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob4 span.closeBtn100223 svg {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob1 h2,
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2 h2,
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob3 h2,
@@ -459,7 +471,7 @@
   font-size: 15px;
   line-height: 15px;
   margin: 20px 20px 20px 60px;
-  max-width: 270px;
+  max-width: 216px;
 }
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob1 .content-wrap,
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2 .content-wrap,

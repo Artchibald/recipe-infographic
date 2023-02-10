@@ -150,6 +150,17 @@
             @media (min-width: 414px) {
                 min-height: 120px;
             }
+            span.closeBtn100223 {
+                svg {
+                    width: 26px;
+                    height: 26px;
+                    position: absolute;
+                    top: 22px;
+                    right: 22px;
+                    cursor: pointer;
+                    transform: rotate(45deg);
+                }
+            }
             h2 {
                 line-height: 32px;
                 background-color: white;
@@ -169,7 +180,7 @@
             h3 {
                 @include h3;
                 margin: 20px 20px 20px 60px;
-                max-width: 270px;
+                max-width: 216px;
             }
             .content-wrap {
                 width: 92%;

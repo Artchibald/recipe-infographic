@@ -390,6 +390,14 @@
          </svg>
             <h3 id="main-title-mob-100223" class="title">Intelligence and Investigation Services</h3>
             <div class="hidden" id="toggleText060223Mob1">
+                <span class="closeBtn100223">
+               
+                  <svg  class="090223CloseButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.0714 21.0714">
+                     <circle cx="10.5357" cy="10.5357" r="10" style="fill: #2393d1; stroke: #1a2352; stroke-miterlimit: 10; stroke-width: 1.0714px;"/>
+                     <line x1="10.5357" y1="4.3357" x2="10.5357" y2="16.7357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 1.9366px;"/>
+                     <line x1="16.7357" y1="10.5357" x2="4.4357" y2="10.5357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2.0901px;"/>
+                   </svg>
+               </span>
                 <h2>4</h2>
                 <h3>Support law enforcement & legal action </h3>
                 <div class="content-wrap">
@@ -430,6 +438,13 @@
 
             </div>
             <div class="hidden" id="toggleText060223Mob2">
+                <span class="closeBtn100223">
+                  <svg  class="090223CloseButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.0714 21.0714">
+                     <circle cx="10.5357" cy="10.5357" r="10" style="fill: #2393d1; stroke: #1a2352; stroke-miterlimit: 10; stroke-width: 1.0714px;"/>
+                     <line x1="10.5357" y1="4.3357" x2="10.5357" y2="16.7357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 1.9366px;"/>
+                     <line x1="16.7357" y1="10.5357" x2="4.4357" y2="10.5357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2.0901px;"/>
+                   </svg>
+               </span>
                 <h2>1</h2>
                 <h3>Identify pirate service of&nbsp;interests </h3>
                 <div class="content-wrap">
@@ -485,6 +500,13 @@
                 </div>
             </div>
             <div class="hidden" id="toggleText060223Mob3">
+                <span class="closeBtn100223">
+                  <svg  class="090223CloseButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.0714 21.0714">
+                     <circle cx="10.5357" cy="10.5357" r="10" style="fill: #2393d1; stroke: #1a2352; stroke-miterlimit: 10; stroke-width: 1.0714px;"/>
+                     <line x1="10.5357" y1="4.3357" x2="10.5357" y2="16.7357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 1.9366px;"/>
+                     <line x1="16.7357" y1="10.5357" x2="4.4357" y2="10.5357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2.0901px;"/>
+                   </svg>
+               </span>
                 <h2>3</h2>
                 <h3>Generate reports & enforcement strategy</h3>
                 <div class="content-wrap">
@@ -540,6 +562,13 @@
                 </div>
             </div>
             <div class="hidden" id="toggleText060223Mob4">
+                <span class="closeBtn100223">
+                  <svg  class="090223CloseButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.0714 21.0714">
+                     <circle cx="10.5357" cy="10.5357" r="10" style="fill: #2393d1; stroke: #1a2352; stroke-miterlimit: 10; stroke-width: 1.0714px;"/>
+                     <line x1="10.5357" y1="4.3357" x2="10.5357" y2="16.7357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 1.9366px;"/>
+                     <line x1="16.7357" y1="10.5357" x2="4.4357" y2="10.5357" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 2.0901px;"/>
+                   </svg>
+               </span>
                 <h2>2</h2>
                 <h3>Undertake analysis & investigations</h3>
                 <div class="content-wrap">
@@ -794,6 +823,16 @@
                         toggle060223Text.classList.remove('visible');
                     }
                 });
+            });
+        });
+
+        // close button X
+        toggle060223Texts.forEach((toggle060223Texts, index) => {
+            const closeButton = toggle060223Texts.querySelector('span');
+            closeButton.addEventListener('click', () => {
+                toggle060223Texts.classList.remove('visible');
+                toggle060223Texts.classList.toggle('hidden');
+
             });
         });
 
