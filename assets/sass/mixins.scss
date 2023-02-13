@@ -129,6 +129,19 @@
     line-height: 15px;
 }
 
+@mixin p_small_mob {
+    margin: 10px 0 0 21px;
+    font-family: Helvetica, Sans-Serif;
+    color: $para-blue;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 12px;
+    @media (min-width: 599px) {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
 @mixin button-style {
     cursor: pointer;
     margin: 10px 10px 10px 20px;

@@ -1305,7 +1305,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 27px;
   right: 0;
   margin: auto;
 }
@@ -1326,7 +1326,7 @@
   top: 10px;
 }
 #infogr-wrap-060223-mobile .circle-wrap {
-  height: 340px;
+  height: 380px;
   position: relative;
   overflow: hidden;
 }
@@ -1414,7 +1414,7 @@
   border-radius: 12px;
   min-height: 100px;
   margin: 0px auto;
-  padding-bottom: 4px;
+  padding-bottom: 0px;
   max-width: 440px;
   position: absolute;
   top: 50%;
@@ -1514,12 +1514,21 @@
   margin: 10px 0 0 21px;
   font-family: Helvetica, Sans-Serif;
   color: #123b62;
-  font-size: 15px;
+  font-size: 12px;
   display: inline-block;
-  line-height: 15px;
+  line-height: 12px;
   display: block;
   background-image: none;
   margin: 0px 0 0 21px;
+}
+@media (min-width: 599px) {
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob1 .content-wrap .width-60 p,
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2 .content-wrap .width-60 p,
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob3 .content-wrap .width-60 p,
+  #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob4 .content-wrap .width-60 p {
+    font-size: 15px;
+    line-height: 15px;
+  }
 }
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob1 .content-wrap .width-60 p::before,
 #infogr-wrap-060223-mobile .circle-wrap #toggleText060223Mob2 .content-wrap .width-60 p::before,

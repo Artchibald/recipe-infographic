@@ -65,7 +65,7 @@
         }
     }
     .circle-wrap {
-        height: 340px;
+        height: 380px;
         position: relative;
         overflow: hidden;
         @media (min-width: 600px) {
@@ -141,7 +141,7 @@
             border-radius: 12px;
             min-height: 100px;
             margin: 0px auto;
-            padding-bottom: 4px;
+            padding-bottom: 0px;
             max-width: 440px;
             position: absolute;
             top: 50%;
@@ -203,7 +203,7 @@
                     display: inline-block;
                     vertical-align: top;
                     p {
-                        @include p;
+                        @include p_small_mob;
                         display: block;
                         background-image: none;
                         margin: 0px 0 0 21px;
