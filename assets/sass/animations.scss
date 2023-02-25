@@ -275,6 +275,14 @@
                 animation-fill-mode: forwards;
             }
         }
+        .line3-100223 {
+            opacity: 0;
+            &.start {
+                animation: 1s ease-out 0s 1 fadeInText;
+                animation-delay: 8.1s;
+                animation-fill-mode: forwards;
+            }
+        }
         .circle {
             opacity: 0;
             &.start {

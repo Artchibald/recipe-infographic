@@ -240,6 +240,14 @@
   animation-delay: 8.1s;
   animation-fill-mode: forwards;
 }
+#infogr-wrap-060223-desktop .col .line3-100223 {
+  opacity: 0;
+}
+#infogr-wrap-060223-desktop .col .line3-100223.start {
+  animation: 1s ease-out 0s 1 fadeInText;
+  animation-delay: 8.1s;
+  animation-fill-mode: forwards;
+}
 #infogr-wrap-060223-desktop .col .circle {
   opacity: 0;
 }
